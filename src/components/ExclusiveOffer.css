@@ -1,0 +1,39 @@
+.lgExcluDev {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+}
+.exBtn {
+  display: flex;
+  justify-content: space-around;
+  gap: 6;
+  cursor: pointer;
+  font-weight: 600;
+  width: 150px;
+}
+
+.offerCard {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  width: 70vw;
+  align-items: center;
+}
+
+.alignExcluImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.resartImgCard {
+  width: 100%;
+}
+@media (min-width: 769px) {
+  .resartImgCard {
+    width: 48%;
+  }
+}
