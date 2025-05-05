@@ -57,10 +57,6 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [location.pathname]);
 
-  useEffect(() => {
-    window.scrollTo(0, 0); // Ensures every navigation starts at the top
-  }, [location.pathname]);
-
   return (
     <nav
       className={`fixed top-0 left-0  w-full flex items-center 
